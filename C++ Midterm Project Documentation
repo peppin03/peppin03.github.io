@@ -1,0 +1,9 @@
+
+# MIDTERM PROJECT DOCUMENTATION
+
+
+    For my project I would like to incorperate both FFT, and OSC messages. I would like to use FFT for the song of the piece, which will be an original that I have been working on for a good while. For OSC messages I would like to make a patch in pure data which sends midi data from my midi controller, and use said midi messages to control the visuals of the piece. 
+
+    I feel like I have enough experience with Max for live to get an addiquate familiarity with Pure Date, so creating a patch which works with my midi device shouldnt be too hard. 
+
+    I would like to incorperate the usage of actual pictures, in a way that doesnt take up too much CPU power. 
