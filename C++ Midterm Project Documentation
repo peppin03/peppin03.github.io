@@ -1,0 +1,105 @@
+
+# MIDTERM PROJECT DOCUMENTATION / DOWNLOAD 
+
+
+DOWNLOAD LINK : 
+
+https://drive.google.com/drive/folders/164qK-_32LGHnghMbG7av58wredS5sbpK?usp=sharing
+
+
+    For my project I would like to incorperate both FFT, and OSC messages. I would like to use FFT for the song of the piece, which will be an original that I have been working on for a good while. For OSC messages I would like to make a patch in pure data which sends midi data from my midi controller, and use said midi messages to control the visuals of the piece. 
+
+    I feel like I have enough experience with Max for live to get an addiquate familiarity with Pure Date, so creating a patch which works with my midi device shouldnt be too hard. 
+
+    I would like to incorperate the usage of actual pictures, in a way that doesnt take up too much CPU power. 
+
+
+## UPDATE ON MY INITIAL PLAN.
+I have given up on trying to get pure data to work with open frameworks. I have also just given up on 
+using midi in general. Ive attempted for around 2 hours to get it to work, and I just cannot figure it 
+out, especially with such a heavy loaded midterm this semester. Instead I am going the FFT route to create a
+visualizer for a song that I wrote, and my band has just recently released. 
+
+first thing:
+
+I need a place to start off on, I have decided to base this project on this tutorial, by Dan Buzzo
+
+https://www.youtube.com/watch?v=Ijeb3wp0jqg&ab_channel=danbuzzo
+
+I followed this tutorial step by step, and got a starting place that I am very happy with. 
+
+I will also include all of the resorces that I followed for De-Bugging, and attempting to get Midi to work, and my entire conversation with 
+Chat GPT, full of debugging, and figuring things out. 
+
+
+CHAT GPT LINK: https://chatgpt.com/share/6719c77a-a0dc-8006-838f-5442d2ea94de
+
+
+youtube videos i watched 
+
+
+https://www.youtube.com/watch?v=FMnNmsJSyTw
+
+https://www.youtube.com/watch?v=YSma8FBNRfo&t=503s
+
+https://www.youtube.com/watch?v=X_is1x8iVtw&t=140s
+
+https://www.youtube.com/watch?v=2Jz0LE6ovvg
+
+https://www.youtube.com/watch?v=O16z27C4a7Q
+
+
+https://www.youtube.com/watch?v=p2aoKF6KGdI&t=109s
+
+https://www.youtube.com/watch?v=TczI-tSOIpY&t=575s
+
+https://www.youtube.com/watch?v=vMgADShsAuI&t=2s
+
+
+Yeah as you can see from the chat gpt log, there was so much de bugging, I hate relying on AI, but i was so lost
+for a good portion of coding this, and It honestly was a huge help with debugging, and getting ideas started. 
+
+
+## WHAT IS MY PROJECT?
+
+A conglomeration of patches that we learned in past classes + things ive figured out through youtube tutorials + chat gpt debugging all
+put on top of a tik tok of 2 cats fighting. The GUI Sliders adjust the unfilled shapes, and the hue and saturation of the project. The left
+and right keyboard buttons make the video faster and slower. The up and down buttons, also mess with the hue and saturation. I hope you enjoy!!
+
+## MAIN ISSUES I ENCOUNTERED 
+
+Midi not working:
+
+I installed new extentions, and followed tutorials, but I couldnt figure it out. 
+Even if I did end up figuring it out, I wouldnt have known how to go about programming my project with midi implementation. 
+Looking back at how it turned out, I would probably have attempted to connect the GUI sliders to CC's 
+
+Saturation and Hue:
+
+The Saturation wasnt that big of a deal, but I couldnt for the life of me find a way to get the hue back to the original colors of the video.
+this took SO MUCH DEBUGGING and coming up with different ideas 
+
+VIDEO PLAYER RUNNING AT LIKE 2 FRAMES A SECOND:
+
+So originally the cat video that I used was just suppost to be a placeholder. I recorded a music video for this song, that I was going
+to edit later on down the line, but I thought it would be cool to use it in this project as well. Whenever I would import any sort of 
+long video including my music video clip, the project would run so unbelivably slow. 
+
+
+## HOW I FIXED THESE ISSUES
+
+Midi Not Working:
+
+I GAVE UP ! 
+
+Saturation and Hue:
+
+After a very long time of debugging, instead of attempting to have the saturation and hue react to the FFT
+I decided to make a bunch of Gui Sliders to give myself control of how the visuals are effected. 
+
+Video Player Running:
+
+After tons of debugging, I could not find a fix for this. I decided to make the cat video placeholder the centerpiece 
+for this project, and honestly I cant complain. 
+
+
