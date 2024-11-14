@@ -1,0 +1,3 @@
+FINAL PROPOSAL
+
+I think it would be very cool to manipulare pictures with OSC messages coming from PD. In PD I would also like to create a sampler that would be randomized by bangs that are linked to an metronome. I think that I could maybe take the data from the randomized bangs, and have them influence the visualizer. As of right now my main focus will be to create a good sampler inside of PD, and hopefully it will give me a strong start to the rest of the project. 
